@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="white">#FFFFFF</color>
-    <color name="bg">#F4FAFF</color>
+    <color name="bg">#F5FAFE</color>
     <color name="primary">#0288D1</color>
     <color name="primary_dark">#01579B</color>
     <color name="primary_light">#B3E5FC</color>
-    <color name="accent">#4FC3F7</color>
     <color name="text_primary">#102A43</color>
     <color name="text_secondary">#627D98</color>
     <color name="card">#FFFFFF</color>
     <color name="card_stroke">#DCEEFA</color>
-    <color name="input_bg">#F8FCFF</color>
-    <color name="input_stroke">#CBE7F7</color>
-    <color name="output_bg">#F1F9FF</color>
+    <color name="input_bg">#F2F8FD</color>
+    <color name="input_stroke">#D6EAF8</color>
+    <color name="output_bg">#EEF7FF</color>
+    <color name="divider">#E8F2FB</color>
     <color name="success">#2E7D32</color>
-    <color name="success_bg">#E8F5E9</color>
     <color name="error">#C62828</color>
     <color name="error_bg">#FFEBEE</color>
+    <color name="bubble_error_stroke">#FFCDD2</color>
+    <color name="warning_text">#8D5A00</color>
+    <color name="warning_bg">#FFF8E6</color>
     <color name="neutral">#52606D</color>
     <color name="neutral_bg">#ECEFF1</color>
 </resources>

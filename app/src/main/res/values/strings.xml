@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Termux Paneli</string>
-    <string name="header_title">Termux Paneli</string>
-    <string name="header_subtitle">OpenCode kontrol merkezi</string>
-    <string name="connection_title">Bağlantı Durumu</string>
-    <string name="status_checking">Kontrol ediliyor...</string>
+
     <string name="status_ready">Hazır</string>
-    <string name="status_active">Bağlantı aktif</string>
+    <string name="status_active">Bağlı</string>
     <string name="status_error">Bağlantı hatası</string>
-    <string name="status_missing">Termux bulunamadı</string>
-    <string name="status_permission">İzin bekleniyor</string>
-    <string name="refresh">Yenile</string>
-    <string name="test_title">Test Komutu</string>
-    <string name="test_desc">Komut Termux içinde çalıştırılır ve çıktı burada gösterilir.</string>
-    <string name="run">Çalıştır</string>
-    <string name="running">Çalışıyor...</string>
-    <string name="output_title">Çıktı</string>
-    <string name="copy">Kopyala</string>
-    <string name="copied">Çıktı kopyalandı</string>
-    <string name="nothing_to_copy">Kopyalanacak çıktı yok</string>
-    <string name="opencode_title">OpenCode</string>
-    <string name="opencode_desc">OpenCode, Termux içinde yeni bir oturumda başlatılır.</string>
-    <string name="start_opencode">OpenCode\'u Başlat</string>
+    <string name="status_permission">İzin gerekli</string>
+    <string name="status_missing">Termux yok</string>
+    <string name="status_with_version">● %1$s · Termux v%2$s</string>
+    <string name="status_without_version">● %1$s</string>
+
+    <string name="open_opencode">OpenCode</string>
+    <string name="more_actions">Diğer işlemler</string>
     <string name="open_termux">Termux\'u Aç</string>
-    <string name="permission_needed">Termux komut izni gerekli. İzin ver düğmesine dokunun.</string>
+    <string name="refresh_status">Durumu Yenile</string>
+
+    <string name="permission_banner">Termux komut izni gerekli</string>
+    <string name="termux_missing_banner">Termux kurulu değil, komutlar çalıştırılamaz</string>
     <string name="grant_permission">İzin Ver</string>
-    <string name="permission_denied">Komut izni verilmedi. Uygulama ayarlarından izin verebilirsiniz.</string>
-    <string name="allow_external_hint">Termux içinde allow-external-apps=true ayarlı olmalı.</string>
-    <string name="exit_code">Çıkış kodu: %1$d</string>
+
+    <string name="input_hint">Komut yaz…</string>
+    <string name="send">Gönder</string>
+
+    <string name="chat_empty_title">Termux ile konuş</string>
+    <string name="chat_empty_body">Yazdığın her satır Termux\'ta komut olarak çalışır ve çıktısı burada görünür.</string>
+    <string name="chat_empty_hint">OpenCode\'u başlatmak için sağ üstteki düğmeyi kullan.</string>
+
+    <string name="assistant_name">TERMUX</string>
+    <string name="copy">Kopyala</string>
+    <string name="copied">Kopyalandı</string>
+    <string name="running">Çalıştırılıyor…</string>
     <string name="timeout">Termux yanıt vermedi (zaman aşımı).</string>
     <string name="send_error">Komut gönderilemedi: %1$s</string>
     <string name="no_output">Komut çıktı üretmedi.</string>
-    <string name="output_empty">Henüz komut çalıştırılmadı.</string>
-    <string name="sending">Gönderiliyor...</string>
-    <string name="waiting_result">Termux yanıtı bekleniyor...</string>
-    <string name="opencode_launching">OpenCode Termux oturumunda başlatılıyor...</string>
+    <string name="exit_meta">Çıkış %1$d · %2$s</string>
+    <string name="error_meta">Hata · %1$s</string>
+
+    <string name="termux_not_found_msg">Termux bulunamadı. Termux uygulamasının kurulu olduğundan emin olun.</string>
+    <string name="permission_required_msg">Termux komut izni gerekli. İzin isteğini onaylayıp komutu tekrar gönder.</string>
+    <string name="permission_denied">Komut izni verilmedi. Uygulama ayarlarından izin verebilirsiniz.</string>
+    <string name="permission_needed_for_opencode">OpenCode\'u başlatmak için önce komut iznini verin.</string>
+
+    <string name="opencode_launching">OpenCode başlatılıyor…</string>
+    <string name="opencode_launch_error">OpenCode başlatılamadı: %1$s</string>
     <string name="termux_open_error">Termux açılamadı.</string>
-    <string name="opencode_send_error">OpenCode başlatma komutu gönderilemedi: %1$s</string>
-    <string name="command_hint">Termux komutu</string>
-    <string name="command_empty">Komut boş olamaz.</string>
-    <string name="output_meta">Çıkış kodu: %1$d • %2$s</string>
 </resources>
